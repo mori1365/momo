@@ -15,3 +15,18 @@ window.onscroll = () => {
     menu.classList.remove("bx-x");
     nav.classList.remove('open');
 }
+
+let op = document.getElementById('op');
+let cl = document.getElementById('cl');
+let aks = document.querySelector(".aks");
+
+op.onclick = () => {
+    op.style.display= 'none';
+    aks.style.width = "400px";
+    cl.style.display= 'block';
+}
+cl.onclick = () => {
+    op.style.display= 'block';
+    aks.style.width = "0";
+    cl.style.display= 'none';
+}
