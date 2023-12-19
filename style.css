@@ -64,6 +64,30 @@ header.sticky {
 .master .image{
    width: 100%;
 }
+.makhfi{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+    background: yellowgreen;
+    height: 500px;
+    padding: 13%;
+}
+#cl{
+    display: none;
+}
+.aks{
+    width:0;
+    left: 100%;
+    transition: all 1s ease;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.aks img{
+    width: 100%;
+    margin: 0 auto;
+}
 
 
 
